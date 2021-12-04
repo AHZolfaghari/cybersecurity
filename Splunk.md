@@ -1,0 +1,2 @@
+### Splunk
+[Official Doc for installation](https://docs.splunk.com/Documentation/Splunk/8.1.2/SearchTutorial/InstallSplunk)
