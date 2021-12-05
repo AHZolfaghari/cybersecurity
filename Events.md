@@ -12,4 +12,4 @@ Get-WinEvent -ListProvider *msi* | Measure-Object
 
 [Windows Logging CheatSheet](https://www.malwarearchaeology.com/cheat-sheets)
 
-[Events to Monitor for Security](https://docs.microsoft.com/en-us/windows-server/identity/ad-ds/plan/appendix-l--events-to-monitor)
+[Win Events IDs to Monitor for Security](https://docs.microsoft.com/en-us/windows-server/identity/ad-ds/plan/appendix-l--events-to-monitor)
