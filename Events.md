@@ -13,3 +13,6 @@ See a saved file
 
 Count Log events
 > Get-WinEvent -ListProvider *msi* | Measure-Object
+
+Find Logs with specific ID in a file
+> Get-WinEvent -Path .\merged.evtx | Where-Object id -eq 400
