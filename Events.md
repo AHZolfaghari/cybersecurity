@@ -16,3 +16,6 @@ Count Log events
 
 Find Logs with specific ID in a file
 > Get-WinEvent -Path .\merged.evtx | Where-Object id -eq 400
+
+or
+>Get-WinEvent -FilterXPath '*/System/EventID=400' -Path .\merged.evtx
