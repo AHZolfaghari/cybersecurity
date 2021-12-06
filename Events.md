@@ -19,3 +19,8 @@ Find Logs with specific ID in a file
 
 or
 >Get-WinEvent -FilterXPath '*/System/EventID=400' -Path .\merged.evtx
+
+
+## Codes
+[A Sysmon Config](https://github.com/SwiftOnSecurity/sysmon-config)
+[A fork of this with more strict rules](https://github.com/ion-storm/sysmon-config)
