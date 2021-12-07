@@ -27,5 +27,5 @@ or
 - [A fork of this with more strict rules](https://github.com/ion-storm/sysmon-config)
 - [Microsoft Binary File For Sysmon](https://docs.microsoft.com/en-us/sysinternals/downloads/sysmon)
 - [Microsoft Sysinternals Suite](https://docs.microsoft.com/en-us/sysinternals/downloads/sysinternals-suite)
-- Powershell Command to install Sysmon:
-> Download-SysInternalsTools C:\Sysinternals
+- Download the binary and XML config files from the links above and then run this command to install Sysmon:
+> Sysmon.exe -accepteula -i sysmonconfig-export.xml
